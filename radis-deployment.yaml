@@ -27,6 +27,6 @@ spec:
           volumeMounts:
             - mountPath: /data
               name: redis-data
-       volumes:
-         - name: redis-data
-           emptyDir: {}
+      volumes:
+        - name: redis-data
+          emptyDir: {}
