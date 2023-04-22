@@ -34,7 +34,7 @@ spec:
               value: "postgres"
             - name: POSTGRES_HOST_AUTH_METHOD
               value: "trust"
-       volumn:
-         - name: db-data
-           emptyDir: {}
+      volumes:
+        - name: db-data
+          emptyDir: {}
        
