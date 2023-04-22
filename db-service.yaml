@@ -4,7 +4,7 @@ metadata:
   name: db
   namespace: vote
   labels:
-    name: db-service
+    name: db
     app: demo-app
 spec:
   ports:
